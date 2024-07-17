@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos de la tarjeta */
+.tarjeta {
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+    margin: 20px;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos de la imagen */
+.tarjeta img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Estilos del título */
+.tarjeta h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 0.5em;
+}
+
+/* Estilos del precio */
+.tarjeta .precio {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Estilos del botón */
+.tarjeta .boton {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.tarjeta .boton:hover {
+    background-color: #45a049;
+}
